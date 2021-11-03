@@ -1,4 +1,4 @@
-// Unit 2, Topic 2.1, Classes and objects, 11/01/21, Version 0.1
+// Unit 2, Topic 2.1, Classes and objects, 11/03/21, Version 0.2
 
 public class Student {
         // These are INSTANCE VARIABLES.
@@ -58,6 +58,9 @@ public class Student {
         System.out.println("What is the fourth grade");
         grade3 = myScanner.nextInt();
 
+        newGPA (grade0 + grade1 + grade2 + grade3) / 4; 
+        System.out.print("The new GPA is");
+        System.out.println(newGPA);
     }
     
 
