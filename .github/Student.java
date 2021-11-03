@@ -1,4 +1,4 @@
-// Unit 2, Topic 2.1, Classes and objects, 11/03/21, Version 0.2
+// Unit 2, Topic 2.1, Classes and objects, 11/03/21, Version 0.25
 
 public class Student {
         // These are INSTANCE VARIABLES.
@@ -63,6 +63,18 @@ public class Student {
         System.out.println(newGPA);
     }
     
+    pubic static voide newLine() {
+        System.out.println();
+
+    }
+
+    public static void threeLine() {
+        newLine();
+        newLine();
+        newLine();
+    }
+
+
 
 
     public static void main(String[] args) {
