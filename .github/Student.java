@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.40
+// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.41
 
 
 public class Student {
