@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.41
+// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.45
 
 
 public class Student {
@@ -95,7 +95,7 @@ public class Student {
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         } else { 
-            lunchPeriod = "First Lunch";
+            lunchPeriod = "Outside Lunch";
             System.out.print("This student has ");
             System.out.println(lunchPeriod);
         }
@@ -115,6 +115,9 @@ public class Student {
         */
 
         assignLunch(9);
+        assignLunch(11);
+        assignLunch(10);
+        assignLunch(12);
 
     }
 
