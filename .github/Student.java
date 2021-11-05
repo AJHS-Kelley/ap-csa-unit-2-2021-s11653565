@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.35
+// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.38
 
 
 public class Student {
@@ -108,17 +108,21 @@ public class Student {
     }
 
 
-
-
-
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
+        /* 
         Student student0 = new Student(1231431, 6, 2.0, "Bingo");
         Student student1 = new Student(87654321, 9, 10.4, "Bingo");
 
         System.out.println("Hello there!");
         threeLine();
         System.out.println("General Kenobi");
+        */
 
-    
+        assignLunch(9);
+
+    }
+
+
+
+
 }
