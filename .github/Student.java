@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.38
+// Unit 2, Topic 2.1, Classes and objects, 11/05/21, Version 0.40
 
 
 public class Student {
@@ -10,7 +10,7 @@ public class Student {
         private double gradePointAvg;
         private String studentName;
 
-}
+
     // Creating a constructor 
     public student() {
         this.studentID = 0;
@@ -26,10 +26,6 @@ public class Student {
         this.gradePointAvg = GPA;
         this.studentName = studentName; 
     }
-
-
-
-
 
 
 
@@ -61,14 +57,14 @@ public class Student {
         System.out.println("What is the fourth grade");
         grade3 = myScanner.nextInt();
 
-        newGPA (grade0 + grade1 + grade2 + grade3) / 4; 
+        newGPA = (grade0 + grade1 + grade2 + grade3) / 4; 
         System.out.print("The new GPA is");
         System.out.println(newGPA);
 
 
     }
     
-    pubic static void newLine() {
+    public static void newLine() {
         System.out.println();
 
     }
@@ -83,7 +79,7 @@ public class Student {
 
 
     // Parameters and Arguments 
-    public static void assignLunch(int gradeLevel); { 
+    public static void assignLunch(int gradeLevel) { 
         String lunchPeriod; 
 
         if (gradeLevel == 9) {
