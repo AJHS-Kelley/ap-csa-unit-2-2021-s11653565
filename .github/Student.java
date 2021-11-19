@@ -2,18 +2,6 @@ import java.until.Scanner;
 
 // Unit 2, Topic 2.1, Classes and objects, 11/15/21, Version 0.5
 
-
-// Starting memory diagram 
-a = 4
-b = 3
-c = Ricer 
-
-// Ending memory diagram 
-a = a *8
-b = b /2
-c = Tuner 
-
-
 public class Student {
         // These are INSTANCE VARIABLES.
         private int studentID;
@@ -163,4 +151,11 @@ public class Student {
 
 
 
+}
+
+
+    assignLunchMultiple(10, 2.0);
+    assignLunchMultiple(11, 3.4);
+    assignLunchMultiple(9, 4.0);
+    assignLunchMultiple(12, 5.3);
 }
