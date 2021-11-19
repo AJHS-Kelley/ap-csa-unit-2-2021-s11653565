@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/15/21, Version 0.5
+// Unit 2, Topic 2.1, Classes and objects, 11/19/21, 8:22 AM, Version 0.5
 
 public class Student {
         // These are INSTANCE VARIABLES.
@@ -102,6 +102,29 @@ public class Student {
 
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    public static void mathPractice() {
+
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     public static void assignLunchMultiple(int gradeLevel, double gradePointAvg) { 
         String lunchPeriod; 
         // AND, OR, NOT -- Boolean Operators
@@ -158,4 +181,3 @@ public class Student {
     assignLunchMultiple(11, 3.4);
     assignLunchMultiple(9, 4.0);
     assignLunchMultiple(12, 5.3);
-}
