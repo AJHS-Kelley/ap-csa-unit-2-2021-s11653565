@@ -112,6 +112,16 @@ public class Student {
     
     
     public static void mathPractice() {
+        int x;
+        int y; 
+        Scanner myScanner = new Scanner(System.in);
+        x = myScanner.nextInt();
+        y = myScanner.nextInt();
+        System.out.println(Math.min(x, y));
+        
+        int lowest;
+        lowest = Math.min(x, y);
+
 
 
     }
@@ -155,14 +165,7 @@ public class Student {
 
 
      public static void main(String[] args) {
-        /* 
-        Student student0 = new Student(1231431, 6, 2.0, "Bingo");
-        Student student1 = new Student(87654321, 9, 10.4, "Bingo");
-
-        System.out.println("Hello there!");
-        threeLine();
-        System.out.println("General Kenobi");
-        */
+        
 
         assignLunch(9);
         assignLunch(11);
