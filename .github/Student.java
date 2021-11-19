@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/19/21, 8:22 AM, Version 0.5
+// Unit 2, Topic 2.1, Classes and objects, 11/19/21, 8:58 AM, Version 0.5
 
 public class Student {
         // These are INSTANCE VARIABLES.
@@ -115,12 +115,32 @@ public class Student {
         int x;
         int y; 
         Scanner myScanner = new Scanner(System.in);
+        System.out.println("Type an integer and press enter.\n")
         x = myScanner.nextInt();
+        System.out.println("Type an integer and press enter.\n")
         y = myScanner.nextInt();
         System.out.println(Math.min(x, y));
         
         int lowest;
         lowest = Math.min(x, y);
+        System.out.println(lowest);
+
+        System.out.println("Next we will use Math.pow() to calculate.\n");
+        System.out.println(Math.pow(x, y)); 
+
+        double exponents;
+        exponents = Math.pow(x, y);
+        System.out.println(exponents); 
+
+        System.out.println("Next we will use MAth,random().\n");
+        System.out.println(Math.random());
+
+        double percentage;
+        percentage = (Math.random() * 100); 
+        System.out.println("There is a ");
+        System.out.println(percentage);
+        System.out.println("% chance of rain today.\n");
+
 
 
 
