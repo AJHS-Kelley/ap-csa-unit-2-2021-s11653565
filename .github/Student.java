@@ -1,7 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 12/06/21, 8:34 AM, Version 0.55
-
+7// Unit 2, Topic 2.1, Classes and objects, 12/06/21, 8:43 AM, Version 0.57
 public class Student {
         // These are INSTANCE VARIABLES.
         private int studentID;
@@ -102,6 +101,7 @@ public class Student {
 
     }
 
+
     
     
     
@@ -153,6 +153,22 @@ public class Student {
     grade0 = 10
     grade1 = 15
     grade2 = 50
+    }
+
+    public static void main(String[] args) {
+        /*
+        assignLunchMultiple(10, 1.45);
+        assignLunchMultiple(11, 2.5);
+        */
+
+
+        // mathPractice();
+
+        double realGPA 
+        realGPA = -1.0;
+        System.out.println(realGPA);
+        realGPA = getGPA();
+        System.out.println(realGPA);
     }
     
     
