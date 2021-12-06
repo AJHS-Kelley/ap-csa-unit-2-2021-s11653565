@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-7// Unit 2, Topic 2.1, Classes and objects, 12/06/21, 8:43 AM, Version 0.57
+// Unit 2, Topic 2.1, Classes and objects, 12/06/21, 9:02 AM, Version 0.60
 public class Student {
         // These are INSTANCE VARIABLES.
         private int studentID;
@@ -115,9 +115,9 @@ public class Student {
         int x;
         int y; 
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Type an integer and press enter.\n")
+        System.out.println("Type an integer and press enter.\n");
         x = myScanner.nextInt();
-        System.out.println("Type an integer and press enter.\n")
+        System.out.println("Type an integer and press enter.\n");
         y = myScanner.nextInt();
         System.out.println(Math.min(x, y));
         
@@ -147,12 +147,18 @@ public class Student {
     }
 
     public static double getGPA() {
-        int grade0, grade1, grade2 
+        int grade0, grade1, grade2; 
 
 
-    grade0 = 10
-    grade1 = 15
-    grade2 = 50
+    grade0 = 10;
+    grade1 = 15;
+    grade2 = 50;
+
+    double fakeGPA;
+    fakeGPA = (grade0 + grade1 + grade2) / 3; 
+
+    return fakeGPA; 
+
     }
 
     public static void main(String[] args) {
@@ -164,7 +170,7 @@ public class Student {
 
         // mathPractice();
 
-        double realGPA 
+        double realGPA; 
         realGPA = -1.0;
         System.out.println(realGPA);
         realGPA = getGPA();
@@ -209,23 +215,16 @@ public class Student {
     }
 
 
-     public static void main(String[] args) {
-        
-
-        assignLunch(9);
-        assignLunch(11);
-        assignLunch(10);
-        assignLunch(12);
-
-    }
 
 
 
 
 }
 
-
+ /* 
     assignLunchMultiple(10, 2.0);
     assignLunchMultiple(11, 3.4);
     assignLunchMultiple(9, 4.0);
     assignLunchMultiple(12, 5.3);
+}
+} */ 
