@@ -1,6 +1,6 @@
 import java.until.Scanner;
 
-// Unit 2, Topic 2.1, Classes and objects, 11/19/21, 8:58 AM, Version 0.5
+// Unit 2, Topic 2.1, Classes and objects, 12/06/21, 8:34 AM, Version 0.55
 
 public class Student {
         // These are INSTANCE VARIABLES.
@@ -144,6 +144,15 @@ public class Student {
 
 
 
+    }
+
+    public static double getGPA() {
+        int grade0, grade1, grade2 
+
+
+    grade0 = 10
+    grade1 = 15
+    grade2 = 50
     }
     
     
